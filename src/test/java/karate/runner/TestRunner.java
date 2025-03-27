@@ -37,7 +37,7 @@ public class TestRunner {
 
         Results results = Runner
                 .path("classpath:resources/features/retoapis")
-                .tags("@AgregarNuevaMascota")
+                .tags("@ConsultarMascota")
                 .relativeTo(getClass())
                 .hook(new AllureKarate())
                 .outputCucumberJson(true)
